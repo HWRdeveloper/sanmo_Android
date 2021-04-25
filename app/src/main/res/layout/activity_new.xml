@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNewActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/rule_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="혈압"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <com.google.android.material.textfield.TextInputLayout
+            android:onClick="InputInfo"
+            android:id="@+id/bpText"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="mmHg"
+
+            app:hintAnimationEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/bpinputText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/bpText1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="mmHg"
+
+            app:hintAnimationEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:onClick="InputInfo"
+                android:id="@+id/bpinputText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/rule_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <Spinner
+        android:id="@+id/rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:entries="@array/rules"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/skin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스킨"
+        />
+
+
+    <TextView
+        android:id="@+id/skin_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+
+    <Button
+        android:id="@+id/btn_add_counterpart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="add_counterpart"
+        android:text="상대방 추가"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pf_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/counterpart_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="create"
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생성" />
+
+
+
+</LinearLayout>

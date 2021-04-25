@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rules">
+        <item>단일치환암호</item>
+        <item>RSA</item>
+    </string-array>
+
+    <string-array name="skin">
+        <item>.. . . .  . .. </item>
+        <item>adfkwjfksflkf</item>
+        <item>/@!$!%@$#@!%^</item>
+        <item>!(•̀ᴗ•́)و ̑̑"(▰˘v˘▰)</item>
+        <item>こんにちはさよな</item>
+        <item>01011110101101</item>
+    </string-array>
+</resources>

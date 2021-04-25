@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654523985206",
+    "project_id": "sanhu-52a35",
+    "storage_bucket": "sanhu-52a35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654523985206:android:081605ba59c714e1de1797",
+        "android_client_info": {
+          "package_name": "com.ruehyeon.sanhu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654523985206-j37d6nkmn1a4t3at77ln0t442b948iqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ2ppfEohUHhdEIaO0Jy3JC0bVfuE7i_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654523985206-j37d6nkmn1a4t3at77ln0t442b948iqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
