@@ -35,8 +35,6 @@ public class App extends Application {
 
                 }
 
-
-
                 @Override
                 public boolean isUsingWebviewTimer() {
                     return false;

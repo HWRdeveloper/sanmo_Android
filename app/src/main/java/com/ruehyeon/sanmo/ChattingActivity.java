@@ -72,6 +72,20 @@ public class ChattingActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
+        Spinner spinner_skin = findViewById(R.id.rules);
+        spinner_skin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                //skin.setText(view);
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+
+            }
+        });
 
         if (Intent.ACTION_VIEW.equals(intent.getAction())) {
             Uri uri = intent.getData();

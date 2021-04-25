@@ -50,7 +50,6 @@ public class BottomSheetDialog extends BottomSheetDialogFragment {
 
         final NumberPicker numberPicker = view.findViewById(R.id.number_picker);
 
-
         // Set divider color
         numberPicker.setDividerColor(ContextCompat.getColor(getActivity(), R.color.colorPrimaryLight));
         numberPicker.setDividerColorResource(R.color.colorPrimaryLight);
@@ -110,10 +109,6 @@ public class BottomSheetDialog extends BottomSheetDialogFragment {
                 break;
 
             case  2:
-                numberPicker.setMaxValue(300);
-                numberPicker.setMinValue(65);
-                numberPicker.setValue(120);
-                newValue = 120;
                 break;
             case  3:
                 break;

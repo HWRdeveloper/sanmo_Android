@@ -24,44 +24,16 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class MainActivity extends AppCompatActivity {
-    int a=1
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TabLayout tabLayout = findViewById(R.id.tab_layout);
-
-        tabLayout.addTab(tabLayout.newTab().setText("데일리 체크업"));
-        tabLayout.addTab(tabLayout.newTab().setText("일기장"));
-        tabLayout.addTab(tabLayout.newTab().setText("홈"));
-        tabLayout.addTab(tabLayout.newTab().setText("출산 정보"));
-        tabLayout.addTab(tabLayout.newTab().setText("설정"));
-
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-
-        final ViewPager viewPager = findViewById(R.id.pager);
-        final PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
-
-        viewPager.setAdapter(adapter);
-
-        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener(){
-            @Override
-            public void onTabSelected(TabLayout.Tab tab){
-                viewPager.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab){
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab){
-            }
-
-        });
-
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager.setAdapter(sectionsPagerAdapter);
+        TabLayout tabs = findViewById(R.id.tabs);
+        tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = findViewById(R.id.fab);
         //startActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
         //db

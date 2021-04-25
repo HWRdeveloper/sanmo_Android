@@ -80,5 +80,4 @@ dependencies {
     implementation 'com.shawnlin:number-picker:2.4.12'
 
     implementation 'com.google.android.material:material:1.4.0-alpha01'
-
 }

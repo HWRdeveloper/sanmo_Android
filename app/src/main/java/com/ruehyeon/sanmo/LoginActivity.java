@@ -27,7 +27,9 @@ import com.nhn.android.naverlogin.OAuthLogin;
 import com.nhn.android.naverlogin.OAuthLoginHandler;
 import com.nhn.android.naverlogin.data.OAuthLoginState;
 import com.ruehyeon.sanmo.Util.GoogleSignInOptionSingleTone;
+
 import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -58,6 +60,7 @@ public class LoginActivity extends BaseActivity{
 
         GoogleSignInOptionSingleTone gso = new GoogleSignInOptionSingleTone();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso.getInstance(getApplicationContext()));
+
     }
 
     private void signInWithGoogle() {
