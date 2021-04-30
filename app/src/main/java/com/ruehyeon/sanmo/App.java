@@ -55,6 +55,7 @@ public class App extends Application {
                     // 일반 사용자가 아닌 Kakao와 제휴된 앱에서만 사용되는 값으로, 값을 채워주지 않을경우 ApprovalType.INDIVIDUAL 값을 사용하게 된다.
                 }
 
+
                 @Override
                 public boolean isSaveFormData() {
                     return true;
