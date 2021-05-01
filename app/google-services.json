@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542029743321",
+    "project_id": "sanmo-c99e8",
+    "storage_bucket": "sanmo-c99e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542029743321:android:768a7364524d6ed685eac8",
+        "android_client_info": {
+          "package_name": "com.ruehyeon.sanmo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542029743321-u2u5aocm7qkt02a8ibv2mmqo604ph2un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJKT-Rp6k0OzcAq7VxoznPLlI6CEf0IeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542029743321-u2u5aocm7qkt02a8ibv2mmqo604ph2un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
