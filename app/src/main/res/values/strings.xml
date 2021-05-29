@@ -25,5 +25,10 @@
     <string name="roboto_medium">sans-serif-medium</string>
 
     <string name="number_picker_formatter">%02d</string>
+    <string name="DailyCheckupFragment">데일리 체크업</string>
+    <string name="DiaryFragment">일기장</string>
+    <string name="HomeFragment">홈</string>
+    <string name="InfoFragment">출산 정보</string>
+    <string name="SettingFragment">설정</string>
 
 </resources>
