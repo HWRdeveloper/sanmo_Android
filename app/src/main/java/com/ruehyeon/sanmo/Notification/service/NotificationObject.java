@@ -10,8 +10,8 @@ import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
 
 import androidx.core.app.NotificationCompat;
+import androidx.multidex.BuildConfig;
 
-import com.ruehyeon.sanmo.BuildConfig;
 import com.ruehyeon.sanmo.Notification.misc.Const;
 import com.ruehyeon.sanmo.Notification.misc.Util;
 

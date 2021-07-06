@@ -1,7 +1,7 @@
 package com.ruehyeon.sanmo.Notification.misc;
 
 
-import com.ruehyeon.sanmo.BuildConfig;
+import androidx.multidex.BuildConfig;
 
 public class Const {
 
