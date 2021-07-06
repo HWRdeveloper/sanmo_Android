@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">암호화 대화</string>
+    <string name="tab_text_1">나만의 규칙 생성</string>
+    <string name="tab_text_2">변환하기</string>
+    <string name="tab_text_3">설정</string>
+    <string name="kakao_app_key">bc8e044bb3a6a28d17d9052b979847c7</string>
+    <string name="kakao_scheme">kakaobc8e044bb3a6a28d17d9052b979847c7</string>
+    <string name="kakaolink_host">kakaolink</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">이메일</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="prompt_confirm_password">비밀번호 확인</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"welcome!"</string>
+    <string name="invalid_username">이메일 형식에 맞지 않습니다.</string>
+    <string name="invalid_password">영문과 숫자로 구성된 8-20글자의 조합이어야 합니다.</string>
+    <string name="password_does_not_match">비밀번호가 일치하지 않습니다.</string>
+    <string name="login_failed">"로그인 실패"</string>
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+
+    <string name="number_picker_formatter">%02d</string>
+    <string name="DailyCheckupFragment">데일리 체크업</string>
+    <string name="DiaryFragment">일기장</string>
+    <string name="HomeFragment">홈</string>
+    <string name="InfoFragment">출산 정보</string>
+    <string name="SettingFragment">설정</string>
+
+</resources>
