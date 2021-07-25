@@ -5,12 +5,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.ruehyeon.sanmo.DailycheckupFragment;
-import com.ruehyeon.sanmo.DiaryFragment;
-import com.ruehyeon.sanmo.HomeFragment;
-import com.ruehyeon.sanmo.InfoFragment;
-import com.ruehyeon.sanmo.SettingFragment;
-
 public class PagerAdapter extends FragmentStatePagerAdapter {
     int mNumOfTabs;
     public PagerAdapter(@NonNull FragmentManager fm, int NumOfTabs) {

@@ -92,4 +92,8 @@ dependencies {
 
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
 
+    // 7/18 JunhaPark added : pinview, dimens 관련
+    implementation 'com.chaos.view:pinview:1.4.3'
+    implementation 'com.ui.optimize:dimens:1.0.0'
+    
 }

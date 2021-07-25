@@ -1,15 +1,15 @@
 package com.ruehyeon.sanmo.models.ui.login;
 
+import android.util.Patterns;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import android.util.Patterns;
-
+import com.ruehyeon.sanmo.R;
 import com.ruehyeon.sanmo.models.data.LoginRepository;
 import com.ruehyeon.sanmo.models.data.Result;
 import com.ruehyeon.sanmo.models.data.model.LoggedInUser;
-import com.ruehyeon.sanmo.models.R;
 
 public class LoginViewModel extends ViewModel {
 

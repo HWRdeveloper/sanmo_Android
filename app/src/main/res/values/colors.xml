@@ -348,6 +348,15 @@
 
     <color name="expandable_item_indicator_color">#42000000</color>
 
+    <!-- 7.14 JunhaPark Added-->
+    <color name="newColorBackground">#FFFFFF</color>
+    <color name="newColorBlack">#2f3437</color>
+    <color name="newColorLightHint">#FF7065</color>
+    <color name="text_color_gray">#707070</color>
+    <color name="gray0">#707070</color>
+    <color name="newColorWhite">#EBEBEB</color>
+    <color name="App_color">#FF7065</color>
+
     <!--for random color generator -->
     <array name="mdcolor_random">
         <item type="color">#e91e63</item>
