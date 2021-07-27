@@ -22,7 +22,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.ruehyeon.sanmo.MainActivity;
 import com.ruehyeon.sanmo.R;
-import com.ruehyeon.sanmo.VerifyActivity;
+import com.ruehyeon.sanmo.SendauthActivity;
 import com.ruehyeon.sanmo.databinding.ActivityLoginBinding;
 
 
@@ -131,9 +131,10 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 loadingProgressBar.setVisibility(View.VISIBLE);
-                finish();
-                Intent intent = new Intent(getApplicationContext(), VerifyActivity.class);
+                //finish();
+                Intent intent = new Intent(getApplicationContext(), SendauthActivity.class);
                 startActivity(intent);
+                loadingProgressBar.setVisibility(View.GONE);
             }
         });
     }
@@ -146,5 +147,21 @@ public class LoginActivity extends AppCompatActivity {
 
     private void showLoginFailed(@StringRes Integer errorString) {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
+    }
+
+    private long mBackPressed = 0;
+    @Override
+    public void onBackPressed() {
+        int count = this.getSupportFragmentManager().getBackStackEntryCount(); // 두번 눌러서 종료
+        if (count == 0) {
+            if (mBackPressed + 2000 > System.currentTimeMillis()) {
+                super.onBackPressed();
+            } else {
+                Toast.makeText(getBaseContext(), "한번 더 누르면 앱이 종료됩니다.", Toast.LENGTH_SHORT).show();
+                mBackPressed = System.currentTimeMillis();
+            }
+        } else {
+            finish();
+        }
     }
 }

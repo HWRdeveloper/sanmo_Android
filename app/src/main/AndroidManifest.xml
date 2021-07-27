@@ -45,8 +45,13 @@
             android:name=".CreateNewActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".SendauthActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".VerifyActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"></activity>
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
