@@ -39,6 +39,10 @@ public class SendauthActivity extends BaseActivity{
         backToLogreg = findViewById(R.id.backtologreg);
         authSend = findViewById(R.id.getAuthNumberBtn);
         progressbar = findViewById(R.id.progressBar);
+        /*if(!phoneNumber.hasFocus()){
+            InputMethodManager im = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
+            im.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        }*/
 
         backToLogreg.setOnClickListener(new View.OnClickListener(){
             @Override
