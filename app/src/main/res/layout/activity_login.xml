@@ -46,7 +46,7 @@
         android:id="@+id/imageView3"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:src="@drawable/id"
+        android:src="@drawable/ic_login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/username"
         app:layout_constraintHorizontal_bias="0.625"
@@ -90,7 +90,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
 
-        android:src="@drawable/password"
+        android:src="@drawable/ic_password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/password"
         app:layout_constraintHorizontal_bias="0.65"
@@ -116,11 +116,11 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="131dp"
+        android:layout_width="250dp"
         android:layout_height="42dp"
         android:layout_gravity="start"
         android:background="@drawable/rounded_corner"
-        android:backgroundTint="#FF7065"
+        android:backgroundTint="#FF8A06"
         android:enabled="false"
         android:text="@string/action_sign_in"
         android:textColor="#FFFFFF"
